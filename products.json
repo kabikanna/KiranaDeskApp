@@ -1,0 +1,15 @@
+{
+  "rice": { "unit": "kg", "price": 60 },
+  "sugar": { "unit": "kg", "price": 45 },
+  "milk": [{ "unit": "l", "price": 56 }, { "unit": "pack", "price": 28 }],
+  "toor dal": { "unit": "kg", "price": 160 },
+  "wheat flour": { "unit": "kg", "price": 50 },
+  "salt": { "unit": "kg", "price": 25 },
+  "sunflower oil": { "unit": "l", "price": 160 },
+  "tea powder": { "unit": "kg", "price": 500 },
+  "egg": { "unit": "pcs", "price": 7 },
+  "bread": { "unit": "pack", "price": 45 },
+  "onion": { "unit": "kg", "price": 40 },
+  "tomato": { "unit": "kg", "price": 30 },
+  "potato": { "unit": "kg", "price": 35 }
+}

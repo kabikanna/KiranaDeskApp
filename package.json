@@ -1,0 +1,26 @@
+{
+  "name": "kirana-whatsapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env src/index.ts",
+    "reply": "node --env-file-if-exists=.env src/terminal-reply.ts",
+    "build": "tsc",
+    "start": "node --env-file-if-exists=.env dist/index.js",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.test.json",
+    "test": "node --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.4.13",
+    "twilio": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
